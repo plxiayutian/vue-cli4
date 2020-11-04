@@ -1,0 +1,9 @@
+$primaryColor: #f4d020;
+$fontSize: 11px;
+
+// CSS Module 有一个:export关键字，它在功能上等同于 ES6 的关键字export，即导出一个 js 对象。
+:export {
+  name: "scss"; 
+  primaryColor: $primaryColor;
+  fontSize: $fontSize;
+}
